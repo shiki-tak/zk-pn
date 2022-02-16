@@ -1,0 +1,12 @@
+def calc<N>(field[N] a) -> field:
+    field res = 1
+    for u32 i in 0..N do
+        res = res * a[i]
+    endfor
+    return res
+
+// TODO: 3つ以上の素数に分解できるケースのzkp
+def main(private field[2] pn, field target):
+    field res = calc(pn)
+    assert(res == target)
+    return

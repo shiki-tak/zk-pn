@@ -1,0 +1,19 @@
+{
+  "inputs": [
+    {
+      "name": "pn",
+      "public": false,
+      "type": "array",
+      "components": {
+        "size": 2,
+        "type": "field"
+      }
+    },
+    {
+      "name": "target",
+      "public": true,
+      "type": "field"
+    }
+  ],
+  "outputs": []
+}
